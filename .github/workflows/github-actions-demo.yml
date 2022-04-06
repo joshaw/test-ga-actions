@@ -21,10 +21,3 @@ jobs:
     steps:
       - run: echo "Running a different job"
 
-name: My Second Workflow
-on: [push]
-jobs:
-  Second-Workflow-First-Job:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Running on ${{ runner.os }}, ${{ runner.name }}"
