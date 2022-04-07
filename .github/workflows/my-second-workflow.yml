@@ -5,3 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Running on ${{ runner.os }}, ${{ runner.name }}"
+      - run: sleep 15s
